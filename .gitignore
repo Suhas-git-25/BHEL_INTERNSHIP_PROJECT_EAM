@@ -1,0 +1,35 @@
+# Dependencies
+BACKEND/node_modules/
+FRONTEND/node_modules/
+
+# Build output
+FRONTEND/dist/
+BACKEND/dist/
+build/
+
+# Environment variables
+BACKEND/.env
+FRONTEND/.env
+.env
+.env.*
+
+# Logs
+*.log
+vite.err.log
+vite.out.log
+npm-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GitHub Copilot / AI files
+.agents/
+
+# Oracle wallet files (if you use Oracle Cloud later)
+wallet/
+*.zip
