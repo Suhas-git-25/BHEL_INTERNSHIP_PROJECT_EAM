@@ -9,7 +9,7 @@ let pool;
 function namedToPositional(sql, binds = {}) {
   const params = [];
   const seen = new Map();
-  const converted = sql.replace(/:([a-zA-Z_][a-zA-Z0-9_]*)/g, (_match, name) => {
+  const converted = sql.replace(/(?<!:):([a-zA-Z_][a-zA-Z0-9_]*)/g, (_match, name) => {
     if (!seen.has(name)) {
       seen.set(name, params.length + 1);
       params.push(binds[name]);
