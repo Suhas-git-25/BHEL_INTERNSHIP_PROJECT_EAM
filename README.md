@@ -199,4 +199,4 @@ This project demonstrates:
 
 ## Organization
 
-Developed as part of the internship project associated with Bharat Heavy Electricals Limited (BHEL), one of India's leading engineering and manufacturing enterprises. :contentReference[oaicite:0]{index=0}
+Developed as part of the internship project associated with Bharat Heavy Electricals Limited (BHEL), one of India's leading engineering and manufacturing enterprises.
